@@ -1,0 +1,23 @@
+{
+  "name": "spreadmates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamLangTen/Spreadmates.git"
+  },
+  "author": "SamLangTen",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/SamLangTen/Spreadmates/issues"
+  },
+  "homepage": "https://github.com/SamLangTen/Spreadmates#readme",
+  "dependencies":{
+    "express":"^4.13.4",
+    "jade":"^1.11.0"
+  }
+}
