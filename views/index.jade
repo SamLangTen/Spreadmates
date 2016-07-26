@@ -5,4 +5,6 @@ block content
     h1 Spreadmates
     p 标记你的同学，使你拥有一张独一无二的同学分布图
     p
-      a.btn.btn-primary.btn-lg(role='button') 立刻创建
+      a.btn.btn-primary.btn-lg(role='button',data-bind='text:title') 
+block foot
+  script(src='/javascripts/front-end/index.js')
